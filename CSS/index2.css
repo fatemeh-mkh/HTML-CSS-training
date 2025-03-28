@@ -1,0 +1,53 @@
+/* Type Selectors */
+
+
+body , html{
+    font-family: Arial, sans-serif;
+    border: 3px solid rebeccapurple;
+}
+
+h2{
+    color: red;
+    font-size: 30px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+/* class Selectors */
+.Sporty{
+color: chocolate;
+}
+
+.Casual{
+color: cadetblue;
+}
+
+.Formal{
+color: crimson;
+}
+
+/* Id Selectors */
+#container{
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+}
+
+/* Multiple Style */
+/* .Sporty,.Casual{
+    font-size: 15px;
+} */
+
+/* Descedant Style */
+
+/* #container p{
+    background: blue;
+} */
+
+/* All paragraph outside of containers will be red */
+/* p{
+    background-color: red;
+} */
