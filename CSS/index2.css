@@ -7,14 +7,31 @@
 } */
 
 body{
-    font-family: Poppins,sans;
+    font-family: 'Poppins',sans-serif;
+    line-height: 30px;
 }
+
 p{
     font-weight:400;
 }
-h2{
+
+/* h2{
     color: red;
     font-size: 30px;
+} */
+
+h2{
+font-size: x-large;
+font-size: 700;
+font-style: normal;
+font-variant:normal;
+
+/* font: italic small-caps 700 26px Arial; */
+text-transform: uppercase;
+text-indent: 20px;
+letter-spacing: 2px;
+word-spacing: 5px;
+text-align:left;
 }
 
 a{
