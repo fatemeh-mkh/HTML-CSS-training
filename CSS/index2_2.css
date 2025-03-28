@@ -1,0 +1,31 @@
+body{
+    font-family:Arial,sans-serif;
+    /* background-color: #ffffff; */
+    /* RGB */
+    background: rgb(255, 200, 200);
+}
+
+/* Color Name */
+.Sporty{
+    color: red;
+}
+
+/* Hex Value */
+.Casual{
+    color: #00ff00;
+}
+    /* RGBA */
+.card{
+    /* background: rgba(0, 0, 0, 0.2) */
+
+
+/* HSL */
+    background-color: hsl(0, 100%, 90%);
+}
+
+/* opacity */
+.card-2{
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 0.2;
+}
