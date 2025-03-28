@@ -1,11 +1,17 @@
 /* Type Selectors */
 
 
-body , html{
+/* body , html{
     font-family: Arial, sans-serif;
     border: 3px solid rebeccapurple;
-}
+} */
 
+body{
+    font-family: Poppins,sans;
+}
+p{
+    font-weight:400;
+}
 h2{
     color: red;
     font-size: 30px;
