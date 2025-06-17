@@ -1,0 +1,188 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    direction: rtl;
+    background-image: url('./images/plant-8844340_1280.jpg');
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+    min-height: 100%; /* اضافه کردن حداقل ارتفاع برای ایجاد فضای اطراف فرم */
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(
+        135deg,
+        rgba(251, 238, 230, 0.6) 0%,
+        rgba(228, 205, 179, 0.6) 25%,
+        rgba(200, 227, 178, 0.6) 60%,
+        rgba(164, 194, 159, 0.6) 100%
+    );
+    color: #ffffff;
+    font-size: 30px; /* سایز پایه متن برای تمام صفحه */
+    text-align: center;
+}
+
+.welcome-bar {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    animation: fadeIn 1s ease-in-out; /* انیمیشن روی welcome-bar */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px 20px;
+    flex-direction: row-reverse;
+    flex-grow: 1; /* اجازه می‌دهد که این بخش فضای بیشتری بگیرد */
+}
+
+form {
+    flex: 1;
+    min-width: 320px;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px; /* ایجاد فاصله بیشتر از فوتر */
+    direction: ltr;
+    text-align: left;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #ffffff;
+}
+
+form button {
+    width: 100%;
+    background-color: #546e54;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #fbeee6;
+    color: #333;
+}
+
+form button i {
+    margin-left: 10px;
+}
+
+.info {
+    flex: 1;
+    min-width: 280px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    color: #fff;
+    direction: ltr;
+    text-align: left;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    direction: ltr;
+    text-align: left;
+}
+
+.socials {
+    margin-top: 20px;
+}
+
+.socials i {
+    font-size: 22px;
+    margin-left: 15px;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.socials i:hover {
+    color: #fff;
+}
+
+nav {
+    background-color: #000;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.5s ease, padding 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    color: rgb(187, 211, 165);
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px 0;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+    color: #555;
+}

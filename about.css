@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    background-image: url(./images/abstract-rainbow-7251810_1280.jpg);
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(
+        135deg,
+        rgba(251, 238, 230, 0.6) 0%,
+        rgba(228, 205, 179, 0.6) 25%,
+        rgba(200, 227, 178, 0.6) 60%,
+        rgba(164, 194, 159, 0.6) 100%
+    );
+    color: #ffffff;
+    font-size: 30px; /* سایز پایه متن برای تمام صفحه */
+}
+
+.welcome-bar {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    animation: fadeIn 1s ease-in-out; /* انیمیشن روی welcome-bar */
+}
+
+nav {
+    background-color: #000;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.5s ease, padding 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    color: rgb(187, 211, 165);
+    transform: scale(1.1);
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.info h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.info .role {
+    color: #666;
+    font-size: 14px;
+}
+
+.info p a {
+    color: #00b3b3;
+    text-decoration: none;
+}
+
+.social a {
+    margin-right: 10px;
+    color: #333;
+    font-size: 18px;
+}
+
+.social a:hover {
+    color: #0077cc;
+}
+
+.about {
+    margin-top: 20px;
+    justify-content: center;
+    text-align: justify;
+
+}
+
+.about h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.details div {
+    width: 45%;
+}
+
+.details h4 {
+    margin-bottom: 8px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px 0;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+    color: #555;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.content-box {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px; /* کمتر از 25 */
+    border-radius: 15px; /* گوشه‌ها کمی کمتر خم بشن */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    backdrop-filter: blur(2px);
+    margin: 10px auto; /* فاصله اطراف کمتر + وسط‌چین */
+    max-width: 700px; /* این خط باعث میشه با اسکرین‌های بزرگ، content-box خیلی پهن نشه */
+    width: 90%; /* در نمایشگرهای کوچیک، تا ۹۰٪ صفحه پهن میشه */
+}
+
+
+
+
