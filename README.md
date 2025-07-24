@@ -2,7 +2,7 @@
 
 This repository contains my structured exercises based on the course **"Modern HTML & CSS From The Beginning (Including Sass)"**.
 
-> 🔗 [View the course](https://downloadlynet.ir/2023/19/112236/12/modern-html-css-from-the-beginning-including-sass-2/11/?#/112236-udemy-202538070924.html)
+> 🔗 [View the course]([https://downloadlynet.ir/2023/19/112236/12/modern-html-css-from-the-beginning-including-sass-2/11/?#/112236-udemy-202538070924.html](https://downloadlynet.ir/2023/19/112236/12/modern-html-css-from-the-beginning-including-sass-2/11/?#/112236-udemy-202538070924.html))
 
 ---
 
